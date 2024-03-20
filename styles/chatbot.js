@@ -7,7 +7,7 @@ var data = {
         title: ["Click the link below to Browse products: "],
         options: ['Click here'],
         url: {
-            link: ["product.html"]
+            link: ["pages/product.html"]
         }
     },
     modes: {
