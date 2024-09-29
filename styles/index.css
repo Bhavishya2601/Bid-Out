@@ -171,8 +171,8 @@ header {
     border: none;
     cursor: pointer;
     border-radius: 0;
-    color: black;
     margin-left: 0;
+    color: black;
 }
 
 .overlay button:hover {

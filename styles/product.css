@@ -87,7 +87,6 @@ header {
     cursor: pointer;
 }
 
-/* code for fullscreen search */
 .overlay {
     height: 100%;
     width: 100%;
@@ -145,11 +144,14 @@ header {
     border: none;
     cursor: pointer;
     border-radius: 0;
+    margin-left: 0;
+    color: black;
 }
 
 .overlay button:hover {
     background: #bbb;
 }
+
 footer {
     font-family: inconsolata;
 }
@@ -166,6 +168,9 @@ footer {
 .fix div {
     padding-left: 10px;
 } */
+.head button {
+    cursor: pointer;
+}
 .banner img {
     width: 100%;
 }
@@ -203,23 +208,23 @@ footer {
     color: rgb(219, 55, 101);
 }
 .car {
-    background-image: url('../images/background_images/bg-car.png');
+    background-image: url('bg-car.png');
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
 .art {
-    background-image: url('../images/background_images/bg-art.png');
+    background-image: url('bg-art.png');
     background-size: contain;
 }
 
 .watch {
-    background-image: url('../images/background_images/bg-watch.png');
+    background-image: url('bg-watch.png');
     background-size: contain;
 }
 
 .estate {
-    background-image: url('../images/background_images/bg-estate.png');
+    background-image: url('bg-estate.png');
     background-size: contain;
     /* background-repeat: no-repeat; */
 }
@@ -320,6 +325,7 @@ footer {
     width: 100%;
     /* height: auto; */
     border-radius: 20px;
+
 }
 
 .a1_description {
@@ -367,6 +373,57 @@ footer {
     color: white;
     cursor: pointer;
 }
+.heart_icon{
+
+    font-size: 30px;
+    cursor: pointer;
+    top: -350px;
+    right: -180px;
+    position: relative;
+}
+
+.heart {
+    padding: 3px;
+    background-color: white;
+    /* background: transparent; */
+    border-radius: 50%;
+  }
+  
+  .heart-link {
+    display: inline-block;
+  }
+  #hidden{ 
+    display: none;
+    height: 25px;
+    margin-right: 20px;
+    width: 25px;
+
+  }
+  .heart_icon {
+    position: relative;
+    display: inline-block;
+}
+
+.heart_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+  
+
+.heart:hover {
+    content: url('../images/images/heart.png'); 
+    /* size: 10px; */
+    /* background-color: red; */
+
+    transition: ease-in-out 1s;
+  }
+  .active{
+    content: url('../images/images/heart.png'); 
+    transition: ease-in-out 1s;
+  }
 
 /* .user_bid{
     font-size: 20px;
